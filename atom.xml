@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mason Ji&#39;s Blog</title>
+  
+  <subtitle>Self-Discipline</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-12-03T03:30:16.544Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Mason Ji</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo</title>
+    <link href="http://yoursite.com/2019/12/02/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2019/12/02/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2019-12-02T11:59:53.000Z</published>
+    <updated>2019-12-03T03:30:16.544Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#*Hexo的相关操作 *&lt;br&gt;##常用hexo命令&lt;br&gt;hexo new “postName” #新建文章&lt;br&gt;hexo new page “pageName” #新建页面&lt;br&gt;hexo generate #生成静态页面至public目录&lt;br&gt;hexo
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/12/02/hello-world/"/>
+    <id>http://yoursite.com/2019/12/02/hello-world/</id>
+    <published>2019-12-02T05:55:14.594Z</published>
+    <updated>2019-12-02T05:55:14.594Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
