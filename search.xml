@@ -3,8 +3,9 @@
   <entry>
     <title>Hexo</title>
     <url>/2019/12/02/%E5%A6%82%E4%BD%95%E7%94%A8Hexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#*Hexo的相关操作 *<br>##常用hexo命令<br><code>hexo new &quot;postName&quot;</code> #新建文章<br><code>hexo new page &quot;pageName&quot;</code> #新建页面<br><code>hexo generate</code> #生成静态页面至public目录<br><code>hexo server</code> #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br><code>hexo deploy</code> #部署到GitHub<br><code>hexo help</code> # 查看帮助<br><code>hexo version</code> #查看Hexo的版本<br>缩写：<br><code>hexo n == hexo new</code><br><code>hexo g == hexo generate</code><br><code>hexo s == hexo server</code><br><code>hexo d == hexo deploy</code><br>组合命令：<br><code>hexo s -g</code> #生成并本地预览<br><code>hexo d -g</code> #生成并上传</p>
-<p>#MarkDown语法<br><a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">Markdown基本语法参考</a></p>
+    <content><![CDATA[<h1 id="Hexo-Next-主题美化"><a href="#Hexo-Next-主题美化" class="headerlink" title="Hexo Next 主题美化"></a>Hexo Next 主题美化</h1><p> <a href="http://jeffyang.top/Hexo/Hexo%E4%B8%BB%E9%A2%98Next%E7%BE%8E%E5%8C%96/" target="_blank" rel="noopener">Next主题美化指南</a></p>
+<h1 id="常用hexo命令"><a href="#常用hexo命令" class="headerlink" title="常用hexo命令"></a>常用hexo命令</h1><p><code>hexo new &quot;postName&quot;</code> #新建文章<br><code>hexo new page &quot;pageName&quot;</code> #新建页面<br><code>hexo generate</code> #生成静态页面至public目录<br><code>hexo server</code> #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br><code>hexo deploy</code> #部署到GitHub<br><code>hexo help</code> # 查看帮助<br><code>hexo version</code> #查看Hexo的版本<br>缩写：<br><code>hexo n == hexo new</code><br><code>hexo g == hexo generate</code><br><code>hexo s == hexo server</code><br><code>hexo d == hexo deploy</code><br>组合命令：<br><code>hexo s -g</code> #生成并本地预览<br><code>hexo d -g</code> #生成并上传</p>
+<h1 id="MarkDown语法"><a href="#MarkDown语法" class="headerlink" title="MarkDown语法"></a>MarkDown语法</h1><p><a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">Markdown基本语法参考</a></p>
 ]]></content>
       <categories>
         <category>学习</category>
