@@ -1,57 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>markdown入门语法</title>
+    <url>/2020/01/18/markdown%E5%85%A5%E9%97%A8%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Markdown-的格式"><a href="#Markdown-的格式" class="headerlink" title="Markdown 的格式"></a>Markdown 的格式</h1><ol>
+<li>标题用 # 号表示，每多一级标题，多一个 # 号  </li>
+<li>换行需在打两个空格 再打回车  </li>
+<li>序号要在打完数字加句点后空一格 再打正文  </li>
+<li>“·” 这个符号可以用 - 号加一个空格打出  </li>
+<li>要将一段代码标记出来 用 ` 把代码标记起来  </li>
+<li><em>这样是斜体</em> <strong>这样是粗体</strong> <strong><em>这样是粗斜体</em></strong>  </li>
+<li>引用图片用如下格式<br><img src="./1.jpg" alt="markdown">  </li>
+<li>插入网页链接如下格式<br><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a>  </li>
+<li>如果觉得将将图片链接和网页链接放在文本中破坏美感可以采用如下办法<br>![1][23]<br>[baidu]</li>
+</ol>
+<p>此为文章末尾 此处用来写之前图片[1]和网站[baidu]的地址<br>[23]:.1/1.jpg<br>[baidu]:<a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a><br><strong><em>用冒号就可以不用加括号</em></strong><br>10. 如下所示为如何引用  </p>
+<blockquote>
+<p>这样可以引用<br>11. 水平标尺</p>
+</blockquote>
+<hr>
+]]></content>
+  </entry>
+  <entry>
     <title>C#学习笔记</title>
     <url>/2020/01/18/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p><a href="https://space.bilibili.com/128373173?from=search&seid=6886721913430300205" target="_blank" rel="noopener">B站C#学习视频</a></p>
 <ul>
-<li>.net：一般指.net平台</li>
-<li>.Net Framework 框架：是基于.net平台开发的程序能够有一个稳定的运行环境。（类库、环境）</li>
-<li>解决方案包含项目，一个解决方案可以有多个项目。项目包含类，一个项目可以包含多个类。   <ol>
+<li><p>.net：一般指.net平台</p>
+</li>
+<li><p>.Net Framework 框架：是基于.net平台开发的程序能够有一个稳定的运行环境。（类库、环境）</p>
+</li>
+<li><p>解决方案包含项目，一个解决方案可以有多个项目。项目包含类，一个项目可以包含多个 类。   </p>
+<ol>
 <li>Properties：属性</li>
 <li>App.config: 配置文件</li>
 <li>Program.cs： 类文件</li>
 </ol>
 </li>
-<li>引用命名空间：就是一个地址</li>
-</ul>
+<li><p>引用命名空间：就是一个地址</p>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Linq;</span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Text;</span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>Camel 驼峰命名法</strong>：要求变量名首单词的首字母要小写，其余每个单词的首字母要大写。多用于给变量命名。</li>
-<li><strong>Pascal 帕斯卡命名法</strong>：要求每个单词的首字母都要大写，其余字母小写。多用于给类或者方法命名。</li>
-<li>占位符  </li>
-</ul>
+</li>
+<li><p><strong>Camel 驼峰命名法</strong>：要求变量名首单词的首字母要小写，其余每个单词的首字母要大写。多用于给变量命名。</p>
+</li>
+<li><p><strong>Pascal 帕斯卡命名法</strong>：要求每个单词的首字母都要大写，其余字母小写。多用于给 类或者方法命名。</p>
+</li>
+<li><p>占位符  </p>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">Console.WriteLine(<span class="string">"我的名字是&#123;0&#125;，我今年&#123;1&#125;"</span>,name,age);</span></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>前++</strong> 先将该值加1，再将其代入运算  </li>
-</ul>
-<p><strong>后++</strong> 先将该值代入运算，再将该值加1</p>
-<ul>
-<li><strong>一元运算符</strong> 只需要一个操作符，++ –等  </li>
-</ul>
-<p><strong>二元运算符</strong> 需要两个或以上的运算符，+-*/%<br>一元运算符优先级高于二元运算符<br><code>int a=10; int b=10 + ++a;</code><br>先算++a，在计算与10的和，结果为21</p>
-<ul>
+</li>
+<li><p><strong>前++</strong> 先将该值加1，再将其代入运算<br><strong>后++</strong> 先将该值代入运算，再将该值加1</p>
+</li>
+<li><p><strong>一元运算符</strong> 只需要一个操作符，++ –等<br><strong>二元运算符</strong> 需要两个或以上的运算符，+-*/%<br>一元运算符优先级高于二元运算符<br><code>int a=10; int b=10 + ++a;</code><br>先算++a，在计算与10的和，结果为21</p>
+</li>
 <li><p><strong>转义符</strong> 一个’&#39;+一个特殊字符组成一个具有特殊意义的字符。  </p>
 <ol>
-<li>\n 表示换行  </li>
-<li>&quot; 表示英文半角的双引号</li>
-<li>\t 表示一个tab键的大空格</li>
-<li>\b 表示一个BackSpace退格键，会把前面一个字符删掉。头尾无作用。</li>
-<li>输入路径需加@，不然会认为是一系列转义符<br><code>Console.WriteLine(@&quot;C:\c\a\d\f&quot;);</code></li>
-<li>@还可以将字符串按照原格式输出  </li>
-</ol>
+<li><p>\n 表示换行  </p>
+</li>
+<li><p>&quot; 表示英文半角的双引号</p>
+</li>
+<li><p>\t 表示一个tab键的大空格</p>
+</li>
+<li><p>\b 表示一个BackSpace退格键，会把前面一个字符删掉。头尾无作用。</p>
+</li>
+<li><p>输入路径需加@，不然会认为是一系列转义符<br><code>Console.WriteLine(@&quot;C:\c\a\d\f&quot;);</code></p>
+</li>
+<li><p>@还可以将字符串按照原格式输出  </p>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line">Console.WriteLine(<span class="string">@"本来分成两行</span></span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="string">是会报错的"</span>);</span></pre></td></tr></table></figure>
 </li>
-<li><p>隐式类型转换（自动类型转换）<br>条件1：两种类型兼容 int和double都是数字类型<br>条件2：原类型小于目标类型 例子：int-float int-double<br>显示类型转换（强制类型转换）<br>条件1：两种类型兼容<br>条件2：原类型大于目标类型 例子：double-int double-float  </p>
+</ol>
 </li>
-</ul>
-<p><strong>int和int类型运算结果还是int</strong><br><strong>int和double运算结果是double类型</strong><br>下列b的结果就是10</p>
+<li><p>隐式类型转换（自动类型转换）<br>条件1：两种类型兼容 int和double都是数字类型<br>条件2：原类型小于目标类型 例子：int-float int-double<br>显示类型转换（强制类型转换）<br>条件1：两种类型兼容<br>条件2：原类型大于目标类型 例子：double-int double-float<br><strong>int和int类型运算结果还是int</strong><br><strong>int和double运算结果是double类型</strong><br>下列b的结果就是10</p>
 <figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">double</span> a=<span class="number">10.5</span>;</span></pre></td></tr><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> b=(<span class="keyword">int</span>)a;</span></pre></td></tr></table></figure>
-
-<ul>
-<li></li>
+</li>
 </ul>
 ]]></content>
       <categories>

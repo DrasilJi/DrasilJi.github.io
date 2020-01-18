@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-18T04:32:53.841Z</updated>
+  <updated>2018-11-19T11:49:37.784Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>markdown入门语法</title>
+    <link href="http://yoursite.com/2020/01/18/markdown%E5%85%A5%E9%97%A8%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yoursite.com/2020/01/18/markdown%E5%85%A5%E9%97%A8%E8%AF%AD%E6%B3%95/</id>
+    <published>2020-01-18T04:42:09.455Z</published>
+    <updated>2018-11-19T11:49:37.784Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Markdown-的格式&quot;&gt;&lt;a href=&quot;#Markdown-的格式&quot; class=&quot;headerlink&quot; title=&quot;Markdown 的格式&quot;&gt;&lt;/a&gt;Markdown 的格式&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;标题用 # 号表示，每多一级标题，多一个 #
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>C#学习笔记</title>
     <link href="http://yoursite.com/2020/01/18/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2020/01/18/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2020-01-18T02:01:17.000Z</published>
-    <updated>2020-01-18T04:32:53.841Z</updated>
+    <updated>2020-01-18T04:46:02.587Z</updated>
     
     <summary type="html">
     
