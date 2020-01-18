@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>markdown入门语法</title>
-    <url>/2020/01/18/markdown%E5%85%A5%E9%97%A8%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="Markdown-的格式"><a href="#Markdown-的格式" class="headerlink" title="Markdown 的格式"></a>Markdown 的格式</h1><ol>
-<li>标题用 # 号表示，每多一级标题，多一个 # 号  </li>
-<li>换行需在打两个空格 再打回车  </li>
-<li>序号要在打完数字加句点后空一格 再打正文  </li>
-<li>“·” 这个符号可以用 - 号加一个空格打出  </li>
-<li>要将一段代码标记出来 用 ` 把代码标记起来  </li>
-<li><em>这样是斜体</em> <strong>这样是粗体</strong> <strong><em>这样是粗斜体</em></strong>  </li>
-<li>引用图片用如下格式<br><img src="./1.jpg" alt="markdown">  </li>
-<li>插入网页链接如下格式<br><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a>  </li>
-<li>如果觉得将将图片链接和网页链接放在文本中破坏美感可以采用如下办法<br>![1][23]<br>[baidu]</li>
-</ol>
-<p>此为文章末尾 此处用来写之前图片[1]和网站[baidu]的地址<br>[23]:.1/1.jpg<br>[baidu]:<a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a><br><strong><em>用冒号就可以不用加括号</em></strong><br>10. 如下所示为如何引用  </p>
-<blockquote>
-<p>这样可以引用<br>11. 水平标尺</p>
-</blockquote>
-<hr>
-]]></content>
-  </entry>
-  <entry>
     <title>C#学习笔记</title>
     <url>/2020/01/18/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p><a href="https://space.bilibili.com/128373173?from=search&seid=6886721913430300205" target="_blank" rel="noopener">B站C#学习视频</a></p>
